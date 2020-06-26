@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<style>
+    #mw {
+        max-width: 100%;
+    }
+    #summaryImgCont {
+        max-width: 100%;
+        min-width:40%  <!-- ADJUST FOR IMAGE ORIENTATION -->
+        height: 100%
+    }
+    #summaryImg {
+        max-height: 300px;
+    }
+    #summaryTextCont{  
+        max-width: 100%;
+        min-width: 30%;  <!-- SET MIN-WIDTH DEPENDING ON SIZE OF BLOCK OF TEXT -->
+    }
+    #summaryText{
+         min-height: 100px;  <!--CHANGE MIN-HEIGHT TO MATCH TEXT AMOUNT IN STACKED VIEW-->
+    }
+</style>
+<body>
+<div id="mw" class="container bg-dark mx-auto">
+    <div class="container mx-auto text-light" style="max-width:1100px;">
+ 
+        <div id="mw" class="flex-row p-2 bg-dark border border-secondary">
+            <div class="flex-col-4 offset-md-1 mt-2 text-uppercase text-left">
+                <h3>title hereHELLO</h3>
+            </div>
+            <hr class="bg-light" style="width: 83%; height: 1px;"/>
+            <div class= "d-flex flex-row justify-content-around">
+                <div class="flex-col text-center">
+                    <img class="rounded-circle" src="https://i.imgur.com/IPQo4rw.png" style="max-width:70px;">
+                    <p class="text-uppercase">character</p>
+ 
+                </div>
+                <div class="flex-col  text-center">
+                    <img class="rounded-circle" src="https://i.imgur.com/IPQo4rw.png" style="max-width:70px;">
+                    <p class="text-uppercase">character</p>
+ 
+                </div>
+                <div class="flex-col text-center">
+                    <img class="rounded-circle" src="https://i.imgur.com/IPQo4rw.png" style="max-width:70px;">
+                    <p class="text-uppercase">character</p>
+ 
+                </div>
+                <div class="flex-col text-center">
+                    <img class="rounded-circle" src="https://i.imgur.com/IPQo4rw.png" style="max-width:70px;">
+                    <p class="text-uppercase">character</p>
+ 
+                </div>
+            </div>
+        </div>
+       
+        <div id="mw" class="d-sm-flex flex-m-row">
+            <div id="summaryImgCont" class="flex-column align-self-center p-2 mb-2 ml-1 bg-dark d-flex order-sm-12">
+                    <div class="flex-box mx-2 align-self-center">              
+                        <img id="summaryImg" src="https://i.imgur.com/azJQG9d.png">
+                    </div>
+            </div>
+            <div id="summaryTextCont" class="flex-column p-2 mb-2 bg-dark text-light d-flex order-sm-1">
+                <div class="text-center mt-2 text-uppercase"> <h5> summary </h5> </div>
+                <hr class="bg-light" style="width: 80%; height: 1px;"/>
+                <div id="summaryText" class="flex-grow-1 mx-2" style="max-height: 300px; display: flex; flex-direction: column;  overflow-y: auto;">
+                    <p class="text-justify ml-2 mr-3"> <!-- CHANGE TO CENTER IF LITTLE TEXT-->
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh. Placerat orci nulla pellentesque dignissim enim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</DIV>
+ 
+</body>
+</html>
